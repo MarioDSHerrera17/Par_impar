@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html long="en">
+<head>
+	<meta charset="utf-8">
+	<title>Par o impar</title>
+	<script type="text/javascript">
+		function Par_o_Impar()
+	{
+		var num1 = parseFloat(document.getElementById('num1').value);
+		if (!num1) 
+		{
+			alert("Ingresa un valor")
+		}
+		else
+		{
+			if (num1%2==0) 
+			{
+				alert("ES PAR el numero: " + num1);
+			}
+			else
+			{
+				alert("ES IMPAR el numero: " + num1);
+			}	
+		}
+	}
+	</script>
+</head>
+<body background="https://previews.123rf.com/images/kseniavasil/kseniavasil1508/kseniavasil150800092/43829951-sin-patr%C3%B3n-de-signos-para-la-suma-resta-multiplicaci%C3%B3n-signo-de-interrogaci%C3%B3n-marca-de-verificaci%C3%B3n-ilustraci%C3%B3n-vec.jpg">
+		<p><font face="times new roman" size="+1">Numero PAR o IMPAR</p>
+		Ingresa un número: <input type="text" style="width:68px;height:23px;background-color:#0404B4;color:#FFFFFF;font-size:13pt; font-family:Verdana;text-align:center;" name="num1" id="num1" >
+		<p></p>
+    <input type="button" style="width:100px;height:36px;background-color:#FFFFFF;color:#0404B4;font-size:13pt; font-family:Verdana;text-align:center;"  name="btn1" value="Verificar" onclick="Par_o_Impar()"></td>
+
+</body>
+</html>		
